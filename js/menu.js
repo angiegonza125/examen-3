@@ -5,7 +5,7 @@ const boton = document.querySelector('#menu')
 const salir = document.querySelector('#salir')
 const enlaces = document.querySelector('.link')
 
-//eventos
+
 boton.addEventListener('click', mostrarmenu);
 salir.addEventListener('click', ocultarmenu);
 document.addEventListener('keydown', filtrotecla);
@@ -14,7 +14,7 @@ enlaces.foreach(enlace=>{
     enlace.addEventListener('click', ocultarmenu);
 })
 
-//funciones
+
 function filtrotecla(e){
     e.keyCode === 27 && ocultarmenu();
 }

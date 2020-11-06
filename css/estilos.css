@@ -170,7 +170,7 @@ header{
     transition: transform .3s .2s;
 }
 .showImage{
-    transform: scale(1);
+    transform: scale(1); 
 
 }
 .cerrar{
