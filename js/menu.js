@@ -1,16 +1,16 @@
 //variables
-const menu = document.querySelector('#movil');
-const degradado = document.querySelector('#degradado');
-const boton = document.querySelector('#menu');
-const salir = document.querySelector('#salir');
-const enlaces = document.querySelector('.link');
+const menu = document.querySelector('#movil')
+const degradado = document.querySelector('#degradado')
+const boton = document.querySelector('#menu')
+const salir = document.querySelector('#salir')
+const enlaces = document.querySelector('.link')
 
 //eventos
 boton.addEventListener('click', mostrarmenu);
 salir.addEventListener('click', ocultarmenu);
 document.addEventListener('keydown', filtrotecla);
 degradado.addEventListener('click', ocultarmenu);
-enlaces.forEach(enlace=>{
+enlaces.foreach(enlace=>{
     enlace.addEventListener('click', ocultarmenu);
 })
 
